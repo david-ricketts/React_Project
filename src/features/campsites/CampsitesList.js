@@ -1,6 +1,8 @@
 import { selectAllCampsites } from './campsitesSlice';
 import {Col, Row} from 'reactstrap';
 import CampsiteCard from "./CampsiteCard";
+import { useParams } from 'react-router-dom';
+import { selectCampsiteById } from './campsitesSlice';
 
 
 const CampsitesList = () => {
