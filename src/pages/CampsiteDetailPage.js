@@ -6,7 +6,7 @@ import CommentsList from '../features/comments/CommentsList';
 import SubHeader from '../components/SubHeader';
 
 const CampsiteDetailPage = () => {
-    const { campsiteId } = parseInt(useParams());
+    const { campsiteId } = useParams();
     const campsite = selectCampsiteById(campsiteId);
 
     return (
@@ -22,3 +22,4 @@ const CampsiteDetailPage = () => {
 
 export default CampsiteDetailPage;
 
+//.length issue with validation
