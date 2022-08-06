@@ -24,4 +24,3 @@ const CampsiteDetailPage = () => {
 
 export default CampsiteDetailPage;
 
-//.length issue with validation
