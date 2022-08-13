@@ -51,6 +51,8 @@ const Footer = () => {
                         </a>
                     </Col>
                     <Col sm='4' className='text-center'>
+                        <h5 class="card-title">  <i class="fa fa-solid fa-location-dot text-dark"></i>Reach us at:</h5>
+                        <p class="card-text">123 Main St. <br /> Somewheresville, TX 55512</p>
                         <a
                             role='button'
                             className='btn btn-link'
@@ -68,6 +70,10 @@ const Footer = () => {
                         </a>
                     </Col>
                 </Row>
+                <hr />
+                <div>
+                    <small class="text-light mt-4">© 2022 Ricketts development. All rights reserved.</small>
+                </div>
             </Container>
         </footer>
     );
